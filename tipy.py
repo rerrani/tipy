@@ -12,7 +12,7 @@
 #       get_Tmx(Tmx0, t)       time-evolution of Tmx:     Tmx/Tperi = get_Tmx(Tmx0/Tperi, t/Torb) (paper Eq. 12 + 15)
 #
 #   ii) run it as a program: python3 tipy.py
-#       this will present a worked out example for the evolution of a subhalo
+#       this will run a worked out example for the evolution of a subhalo
 
 
 from math import pi, exp
