@@ -19,4 +19,4 @@ Two ways to use this file:
 
    * run it as a program: ` python3 tipy.py `
    
-       this will runa worked out example for the evolution of a subhalo
+       this will run a worked out example for the evolution of a subhalo
