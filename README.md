@@ -20,3 +20,11 @@ Two ways to use this file:
    * run it as a program: ` python3 tipy.py `
    
        this will run a worked out example for the evolution of a subhalo
+
+
+
+
+
+# dNde.py 
+
+Empirical model to construct energy distribution of tidally stripped stellar tracer as in E+21 Appendix E
