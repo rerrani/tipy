@@ -1,6 +1,7 @@
 # tipy.py 
 
-Empirical model for the tidal evolution of subhalos as described in Errani & Navarro 2020
+Empirical model for the tidal evolution of subhalos as described in [Errani & Navarro 2021](https://arxiv.org/abs/2011.07077).
+For a very brief introduction, see also [this link](https://rerrani.github.io/code.html#tipy).
 
 Two ways to use this file:
 
@@ -27,7 +28,8 @@ Two ways to use this file:
 
 # dNde.py 
 
-Empirical model to construct energy distribution of a tidally stripped stellar tracer as in E+22 Appendix G
+Empirical model to construct energy distribution of a tidally stripped stellar tracer as in [E+22 Appendix G](https://arxiv.org/abs/2111.05866).
+For a very brief introduction, see also [this link](https://rerrani.github.io/code.html#dNdE).
 
 Also here, two ways to use this file:
 
