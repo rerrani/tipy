@@ -27,4 +27,27 @@ Two ways to use this file:
 
 # dNde.py 
 
-Empirical model to construct energy distribution of tidally stripped stellar tracer as in E+21 Appendix E
+Empirical model to construct energy distribution of a tidally stripped stellar tracer as in E+22 Appendix G
+
+Also here, two ways to use this file:
+
+   *  load it as a module: ` from dNdE import * `
+   
+       this gives access to the functions
+       
+       ` dNde(e,es,alpha,beta) `    Empirical energy distribution in the initial conditions      (paper Eq. 13)
+       
+       ` f(e,emxt) `                Filter function, i.e., shape of the tidal energy truncation  (paper Eq. 9)
+       
+       ` ef(ei,emxt) `              Energy mapping initial ei to final ef                         (paper Eq. 12)
+       
+       ` emxt_fit(MmxMmx0) `        Tidal truncation energy vs. remnant mass                      (paper Eq. 10)
+       
+       ` VV0_track(rr0) `  tidal track              ` Vmx/Vmx0 = VV0_track(rmx/rmx0) `          (EN21 tital track)
+       
+       ` rr0_track_from_M(MmxMmx0) ` tidal track     ` rmx/rmx0 = rr0_track_from_M(MmxMmx0) `   (numerically solved)
+
+   * run it as a program: ` python3 dNdE.py `
+   
+       this will run a worked out example for a stellar tracer embedded in an NFW that has been stripped to one per cent of its initial mass
+
