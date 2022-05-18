@@ -20,7 +20,7 @@ Two ways to use this file:
 
    * run it as a program: ` python3 tipy.py `
    
-       this will run a worked out example for the evolution of a subhalo
+       this will run a worked out example for the evolution of an NFW subhalo
 
 
 
@@ -33,7 +33,7 @@ For a very brief introduction, see also [this link](https://rerrani.github.io/co
 
 Also here, two ways to use this file:
 
-   *  load it as a module: ` from dNdE import * `
+   *  load it as a module: ` from dNde import * `
    
        this gives access to the functions
        
@@ -49,7 +49,7 @@ Also here, two ways to use this file:
        
        ` rr0_track_from_M(MmxMmx0) ` tidal track     ` rmx/rmx0 = rr0_track_from_M(MmxMmx0) `   (numerically solved)
 
-   * run it as a program: ` python3 dNdE.py `
+   * run it as a program: ` python3 dNde.py `
    
-       this will run a worked out example for a stellar tracer embedded in an NFW that has been stripped to one per cent of its initial mass
+       this will run a worked out example for a stellar tracer embedded in an NFW halo that has been stripped to one per cent of its initial mass
 
